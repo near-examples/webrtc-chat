@@ -69,7 +69,7 @@ impl WebRTCHub {
         self.encryption_public_keys.get(&hash_account_id(&account_id))
     }
 
-    pub fn make_request(&mut self, to_account_id: AccountId, request: Request) {
+    pub fn request(&mut self, to_account_id: AccountId, request: Request) {
         let pair = AccountPair {
             from_account_id: env::predecessor_account_id(),
             to_account_id,
@@ -86,9 +86,9 @@ impl WebRTCHub {
         self.requests.get(&pair.hash())
     }
 
-    pub fn respond(&mut self, from_account_id: AccountId, response: Request) {
+    pub fn respond(&mut self, to_account_id: AccountId, response: Request) {
         let pair = AccountPair {
-            from_account_id,
+            from_account_id: to_account_id,
             to_account_id: env::predecessor_account_id(),
         };
         self.responses.insert(&pair.hash(), &response);

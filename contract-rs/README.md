@@ -1,6 +1,6 @@
 # Meta NEAR chat
 
-Smart contract to establish WebRTC connection between 2 users. Allows send encrypted messages between users.
+Smart contract to establish WebRTC connection between 2 users.
 
 ## Building
 
