@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/webrtc-chat/static/css/main.00a6ba7b.chunk.css",
+    "main.js": "/webrtc-chat/static/js/main.8f841cf2.chunk.js",
+    "main.js.map": "/webrtc-chat/static/js/main.8f841cf2.chunk.js.map",
+    "runtime-main.js": "/webrtc-chat/static/js/runtime-main.82c4a33d.js",
+    "runtime-main.js.map": "/webrtc-chat/static/js/runtime-main.82c4a33d.js.map",
+    "static/js/2.7ac1e5c3.chunk.js": "/webrtc-chat/static/js/2.7ac1e5c3.chunk.js",
+    "static/js/2.7ac1e5c3.chunk.js.map": "/webrtc-chat/static/js/2.7ac1e5c3.chunk.js.map",
+    "index.html": "/webrtc-chat/index.html",
+    "precache-manifest.41013c8f0bec667183ba5af63ff2d54c.js": "/webrtc-chat/precache-manifest.41013c8f0bec667183ba5af63ff2d54c.js",
+    "service-worker.js": "/webrtc-chat/service-worker.js",
+    "static/css/main.00a6ba7b.chunk.css.map": "/webrtc-chat/static/css/main.00a6ba7b.chunk.css.map",
+    "static/js/2.7ac1e5c3.chunk.js.LICENSE.txt": "/webrtc-chat/static/js/2.7ac1e5c3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82c4a33d.js",
+    "static/js/2.7ac1e5c3.chunk.js",
+    "static/css/main.00a6ba7b.chunk.css",
+    "static/js/main.8f841cf2.chunk.js"
+  ]
+}
